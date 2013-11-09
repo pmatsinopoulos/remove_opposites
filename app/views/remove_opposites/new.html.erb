@@ -1,0 +1,7 @@
+<h1>New Remove Opposites Request</h1>
+<p>Copy and paste your list below:</p>
+<%= form_for @remove_opposite do |f| %>
+    <%= f.label :input_list %><br/>
+    <%= f.text_area  :input_list, :cols => 30, :rows => 30 %><br/>
+    <%= f.submit "Remove Opposites" %>
+<% end %>
